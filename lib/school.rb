@@ -16,6 +16,7 @@ class School
   def sort
     new_roster = {}
     new_roster[grade] = student.sort
+    new_roster
   end
   
 end
