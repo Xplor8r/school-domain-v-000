@@ -11,6 +11,8 @@ class School
     ROSTER.each do |key, value|
       if key == grade
         ROSTER[grade] << "#{student}"
+      else
+        ROSTER[grade] = "#{student}"
       end
     end
   end
