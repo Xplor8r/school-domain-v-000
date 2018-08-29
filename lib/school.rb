@@ -9,6 +9,7 @@ class School
   def add_student(student, grade)
     ROSTER[grade] = []
     ROSTER[grade] << "#{student}"
+    if ROSTER[]
   end
  
 end
