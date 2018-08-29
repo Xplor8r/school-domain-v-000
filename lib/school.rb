@@ -16,7 +16,7 @@ class School
   def sort
     new_roster = {}
     roster.values.sort
-   
+    
   end
   
 end
