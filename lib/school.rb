@@ -7,6 +7,8 @@ class School
     roster = ROSTER
   end
   def add_student(student, grade)
+    ROSTER.each do |key, value|
+      if key.include?(grade)
     ROSTER[grade] = []
     ROSTER[grade] << "#{student}"
   end
