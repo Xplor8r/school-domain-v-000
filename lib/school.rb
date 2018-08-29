@@ -15,8 +15,7 @@ class School
   end  
   def sort
     new_roster = {}
-    new_roster[grade] = student.sort
-    new_roster
+    roster.sort.each do ||
   end
   
 end
