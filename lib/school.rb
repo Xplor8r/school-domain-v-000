@@ -15,6 +15,7 @@ class School
           ROSTER[grade] << "#{student}"
       end
     end
+    ROSTER
   end
  
 end
