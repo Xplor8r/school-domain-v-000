@@ -10,9 +10,9 @@ class School
     ROSTER[grade] = []
     ROSTER.each do |key, value|
       if key == grade
-          "poop"
-      else
           ROSTER[grade] << "#{student}"
+      else
+          "poop"
       end
     end
     ROSTER
