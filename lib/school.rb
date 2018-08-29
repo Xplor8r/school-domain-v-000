@@ -6,10 +6,7 @@ class School
   def roster
     roster = ROSTER
   end
-  def add_student(student, grade)
-    ROSTER[grade] = []
-    ROSTER[grade] << "#{student}"
-    if ROSTER[]
-  end
+  def add_student(grade, student)
+   
  
 end
