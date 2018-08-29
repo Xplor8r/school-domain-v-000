@@ -8,11 +8,7 @@ class School
   end
   def add_student(student, grade)
     ROSTER[grade] = []
-    ROSTER.each do |key, value|
-      if key == grade
-          ROSTER[grade] << "#{student}"
-      end
-    end
+    ROSTER[grade] << "#{student}"
   end
  
 end
