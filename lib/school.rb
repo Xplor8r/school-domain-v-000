@@ -15,7 +15,6 @@ class School
           "poop"
       end
     end
-    ROSTER
   end
  
 end
