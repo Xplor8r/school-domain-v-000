@@ -7,7 +7,7 @@ class School
     roster = ROSTER
   end
   def add_student(student, grade)
-    ROSTER[:grade] = "Student"
+    ROSTER[grade] = "#{student}"
   end
  
 end
