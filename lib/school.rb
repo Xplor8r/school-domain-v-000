@@ -11,6 +11,7 @@ class School
     roster[grade] << student
   end
   def grade(grade)
-    roster[:grade]
+    new_list = []
+    grade.each {|student| roster[:grade] << student}
   end  
 end
