@@ -14,7 +14,7 @@ class School
     roster[grade]
   end  
   def sort
-    roster.keys.sort
+    roster[grade] = roster.values.sort
    
   end
   
