@@ -7,9 +7,9 @@ class School
     roster = ROSTER
   end
   def add_student(student, grade)
+    ROSTER[grade] = []
     ROSTER.each do |key, value|
       if key == grade
-        ROSTER[grade] = []
         ROSTER[grade] << "#{student}"
       end
     end
